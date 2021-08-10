@@ -1,0 +1,20 @@
+uuid: 2117cae6-425e-4b1f-a002-87d338585140
+langcode: en
+status: true
+dependencies:
+  module:
+    - product
+  theme:
+    - bartik
+id: productqrblock
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: product_block
+settings:
+  id: product_block
+  label: "Product QR Block"
+  provider: product
+  label_display: visible
+visibility: {}
